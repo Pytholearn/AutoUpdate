@@ -90,11 +90,11 @@ else:
 
 ```
 
-#            ╔═════════════════════════HaZaRd═════════════════════════════╗
-#            ║        Youtube: https://www.youtube.com/@IIIHaZaRd         ║
-#            ║        Github: https://github.com/Pytholearn               ║
-#            ║        Discord: https://discord.gg/YU7jYRkxwp              ║
-#            ╚════════════════════════════════════════════════════════════╝
+            ╔═════════════════════════HaZaRd═════════════════════════════╗
+            ║        Youtube: https://www.youtube.com/@IIIHaZaRd         ║
+            ║        Github: https://github.com/Pytholearn               ║
+            ║        Discord: https://discord.gg/YU7jYRkxwp              ║
+            ╚════════════════════════════════════════════════════════════╝
 
 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/qD8SXrRJbw) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ili.hazard) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@iiihazard) 
