@@ -45,12 +45,17 @@ else:
 
 Usage example:
 ```py
+import found_update
+import os
+import git
+import shutil
+import time
 cwd = os.getcwd()
 print(cwd)
-AutoUpdate.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version") # raw v link
+found_update.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version") # raw v link
 download_link = "https://github.com/Pytholearn/HAZARD-CHAMELEONS.git" #your rep download link
-AutoUpdate.set_current_version("1.1.2")
-if not AutoUpdate.is_up_to_date():
+found_update.set_current_version("1.1.2")
+if not found_update.is_up_to_date():
     print("""New Update!""")
 
     print("Would you like to update your tool?")
