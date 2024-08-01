@@ -24,7 +24,7 @@ Step 3:
 
 
 # Set a new URL for version checking
-set_url("https://raw.githubusercontent.com/ribkix/testr/main/AutoUpdateTest.txt")
+set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version")
 
 # Get the latest version information
 latest_version = get_latest_version()
