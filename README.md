@@ -26,10 +26,7 @@ Right click on the raw option and copy the link
   <img alt="Right click on the raw option and copy the link" src="https://cdn.discordapp.com/attachments/1268584313763401749/1268587064237228062/EvHRGqn.png?ex=66acf745&is=66aba5c5&hm=0c9e77f0c0eb9060fc2ad7fb98941b6ff2fe4cf16220c6cdfe4d591fc21b91bc&">
 </picture>
 
-Step 3:
-```py
 
-```
 
 Usage example:
 ```py
