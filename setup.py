@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="found_update",
-    version="1.3.5",
+    version="1.5.8",
     author="Pytholearn-HAZARD(ilia alizade)",
     author_email="police123456789ilia@gmail.com",
     description="A Python package for automatic updating tools.",
