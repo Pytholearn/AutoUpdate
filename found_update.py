@@ -46,12 +46,3 @@ def is_up_to_date():
 # Function to download and save the updated program to a specified path
 def download(path_to_file):
     urllib.request.urlretrieve(download_link, path_to_file)
-
-
-
-
-#            ╔═════════════════════════HaZaRd═════════════════════════════╗
-#            ║        Youtube: https://www.youtube.com/@IIIHaZaRd         ║
-#            ║        Github: https://github.com/Pytholearn               ║
-#            ║        Discord: https://discord.gg/YU7jYRkxwp              ║
-#            ╚════════════════════════════════════════════════════════════╝
