@@ -49,30 +49,6 @@ def download(path_to_file):
 
 
 
-#═══════════════════════════════════════════════════════════════════════════════════════
-#How To Use?:
-
-
-# Set a new URL for version checking
-#set_url("https://raw.githubusercontent.com/ribkix/testr/main/AutoUpdateTest.txt")
-
-# Get the latest version information
-#latest_version = get_latest_version()
-
-# Set the current version of the program
-#set_current_version("0.0.1")
-
-# Check if the program is up to date
-#if is_up_to_date():
-#    print("The program is up to date!")
-#else:
-#    print("A new version is available. Downloading...")
-
-    # Download and install the new version
-#    download("new_version.py")
-#    print("The program has been successfully updated to the latest version.")
-#═══════════════════════════════════════════════════════════════════════════════════════
-
 
 #            ╔═════════════════════════HaZaRd═════════════════════════════╗
 #            ║        Youtube: https://www.youtube.com/@IIIHaZaRd         ║
