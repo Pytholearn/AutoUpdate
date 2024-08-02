@@ -1,4 +1,4 @@
-# update_founder
+# AutoUpdate
 PYPI PROJECT
 A Python package to automatically find software updates of your repositories in GitHub
 
@@ -33,7 +33,7 @@ Step 3:
 
 Usage example:
 ```py
-import found_update #import pack
+import AutoUpdate #import pack
 import os
 import git
 import shutil
