@@ -1,6 +1,13 @@
 # update_founder
-
+PYPI PROJECT
 A Python package to automatically find software updates of your repositories in GitHub
+
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/qD8SXrRJbw) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ili.hazard) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@iiihazard) 
+
+[![Updated Badge](https://badges.pufler.dev/updated/Pytholearn/found_update)](https://github.com/Pytholearn/found_update)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+
 
 how does it work:
 
@@ -22,41 +29,25 @@ Right click on the raw option and copy the link
 Step 3:
 ```py
 
-
-# Set a new URL for version checking
-set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version")
-
-# Get the latest version information
-latest_version = get_latest_version()
-
-# Set the current version of the program
-set_current_version("0.0.1")
-
-# Check if the program is up to date
-if is_up_to_date():
-    print("The program is up to date!")
-else:
-    print("A new version is available. Downloading...")
-
-    # Download and install the new version
-    download("new_version.py")
-    print("The program has been successfully updated to the latest version.")
 ```
 
 Usage example:
 ```py
-import found_update
+import AutoUpdate #import pack
 import os
 import git
 import shutil
 import time
+
 cwd = os.getcwd()
 print(cwd)
-found_update.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version") # raw v link
-download_link = "https://github.com/Pytholearn/HAZARD-CHAMELEONS.git" #your rep download link
-found_update.set_current_version("1.1.2")
-if not found_update.is_up_to_date():
-    print("""New Update!""")
+
+AutoUpdate.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version") # Raw Code
+download_link = "https://github.com/Pytholearn/HAZARD-CHAMELEONS.git" #Git Download Link
+AutoUpdate.set_current_version("1.1.2")
+
+if not AutoUpdate.is_up_to_date():
+    print("New UPDATE!")
 
     print("Would you like to update your tool?")
     choice = input("If you like(Y) or you dont want to update (N)[>>>] ")
@@ -95,13 +86,14 @@ else:
 
 ```
 
-            ╔═════════════════════════HaZaRd═════════════════════════════╗
-            ║        Youtube: https://www.youtube.com/@IIIHaZaRd         ║
-            ║        Github: https://github.com/Pytholearn               ║
-            ║        Discord: https://discord.gg/YU7jYRkxwp              ║
-            ╚════════════════════════════════════════════════════════════╝
+## FAQ
+
+#### For Help: https://discord.gg/qD8SXrRJbw
 
 
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/qD8SXrRJbw) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ili.hazard) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@iiihazard) 
+
+
+
+
 
 
