@@ -33,7 +33,7 @@ Step 3:
 
 Usage example:
 ```py
-import AutoUpdate #import pack
+import found_update #import pack
 import os
 import git
 import shutil
