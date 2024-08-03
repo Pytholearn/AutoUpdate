@@ -1,4 +1,4 @@
-# AutoUpdate
+# Auto_Update
 PYPI PROJECT
 A Python package to automatically find software updates of your repositories in GitHub
 
@@ -30,7 +30,7 @@ Right click on the raw option and copy the link
 
 Usage example:
 ```py
-import AutoUpdate #import pack
+import Auto_Update #import pack
 import os
 import git
 import shutil
@@ -39,11 +39,11 @@ import time
 cwd = os.getcwd()
 print(cwd)
 
-AutoUpdate.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version") # Raw Code
+Auto_Update.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version") # Raw Code
 download_link = "https://github.com/Pytholearn/HAZARD-CHAMELEONS.git" #Git Download Link
-AutoUpdate.set_current_version("1.1.2")
+Auto_Update.set_current_version("1.1.2")
 
-if not AutoUpdate.is_up_to_date():
+if not Auto_Update.is_up_to_date():
     print("New UPDATE!")
 
     print("Would you like to update your tool?")
